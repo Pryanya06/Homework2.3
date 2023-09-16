@@ -1,6 +1,6 @@
-public class Bicycle extends Transport {
+public class Truck extends Transport {
 
-    public Bicycle(String modelName, int wheelsCount) {
+    public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
@@ -11,6 +11,8 @@ public class Bicycle extends Transport {
             for (int i = 0; i < this.getWheelsCount(); i++) {
                 System.out.println("Меняем покрышку");
             }
+            System.out.println("Проверяем двигатель");
+            System.out.println("Проверяем прицеп");
         }
     }
 
